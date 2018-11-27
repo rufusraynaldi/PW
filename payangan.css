@@ -1,0 +1,108 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('wisata.jpeg');
+	position: absolute;
+	background-size: 100%;
+}
+
+section{
+	height: 100vh;
+}
+h1{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: 'Harrington';
+	color: white;
+}
+.tourism{
+	margin-left: 200px;
+	margin-top: -15px;
+}
+
+.header
+{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: rgba(0,100,100,0.9);
+	margin-top: -10px;
+
+}
+
+.header ul
+{
+	margin-left: 340px;
+
+}
+
+.header ul li
+{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	padding: 10px;
+	margin-left: 50px;
+	color: white;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.header ul li a
+{
+	color: white;
+}
+
+.header img
+{
+	width: 200px;
+	height: 90px;
+	position: absolute;
+	margin-left: 40px;
+}
+
+ul li a{
+	text-decoration: none;
+	}
+	
+.header a.activ{
+	color: black;
+}
+.konten{
+	background-color: rgba(255,255,255,0.5);
+	height: 500px;
+	margin: 50px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+.konten h1.isi{
+	color: black;
+	margin-left: 50px;
+	margin-top: 160px;
+	font-style: bold;
+	font-family: "times new roman";
+	font-size: 25px;
+	margin-bottom: -10px;
+
+}
+.konten img{
+	width: 400px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	position: absolute;
+
+}
+.konten p{
+	margin-left: 480px;
+	font-size: 25px;
+	margin-top: 30px;
+}
+.satu img{
+	height: 200px;
+	width: 400px;
+	margin-top: -80px;
+}

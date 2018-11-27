@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script type="text/javascript">
+
+      function parsexmlprovided()
+      {
+            PopUpWindow = window.open('','','',false);
+            PopUpWindow.document.write("<html><head><script>");
+
+            PopUpWindow.document.write("function check() { alert(Hello);}");
+
+            PopUpWindow.document.write("<" + "/" + "script><" + "/" + "head>");
+            PopUpWindow.document.write("<body>");
+            PopUpWindow.document.write("<h1>Hello</h1>");
+            PopUpWindow.document.write("<form>");
+            PopUpWindow.document.write("<br><center><input id=submitid type=submit onClick=check()></input></center></form>")
+
+            PopUpWindow.document.write("</body></html>");
+
+            PopUpWindow.document.close();
+      }
+
+    </script>
+
+
+
+  </head>
+
+  <body>
+    <center>
+    <form>
+      <input type="submit" name="Submit" onClick="parsexmlprovided()" />
+    </form>
+  </center>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('kuliner.jpeg');
+	position: absolute;
+	background-size: 100%;
+}
+
+section{
+	height: 100vh;
+}
+h1{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: 'Harrington';
+	color: white;
+}
+.tourism{
+	margin-left: 200px;
+	margin-top: -15px;
+}
+
+.header
+{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: rgba(0,100,100,0.9);
+	margin-top: -10px;
+
+}
+
+.header ul
+{
+	margin-left: 340px;
+
+}
+
+.header ul li
+{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	padding: 10px;
+	margin-left: 50px;
+	color: white;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.header ul li a
+{
+	color: white;
+}
+
+.header img
+{
+	width: 200px;
+	height: 90px;
+	position: absolute;
+	margin-left: 40px;
+}
+
+ul li a{
+	text-decoration: none;
+	}
+	
+.header a.activ{
+	color: black;
+}
+.kedua{
+	background-color: rgba(0,0,0,0.5);
+	height: 500px;
+	margin: 20px;
+}
+.kedua h1.isi{
+	color: white;
+	margin-left: 150px;
+	margin-top: 150px;
+	font-style: bold;
+	font-family: "times new roman";
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.kedua img{
+	width: 350px;
+	height: 200px;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	position: absolute;
+
+}
+.kedua p{
+	margin-left: 400px;
+	font-size: 25px;
+	margin-top: 15px;
+	color: white;
+}
+.satu img{
+	height: 200px;
+	margin-top: 30px;
+	width: 350px;
+	margin-left: 15px;
+}

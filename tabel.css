@@ -1,0 +1,27 @@
+h1{
+	text-align: center; 
+}
+table{ 
+	position: absolute;
+	width: 50%;
+	margin:10px;
+	margin-left: 320px;
+	
+}
+tr{
+	text-align: center;
+}
+.tabelinput;{
+	text-align: center;
+}
+table .button{
+	margin-top: 100;
+}
+form{
+	padding-top: 20px;
+}
+fieldset{
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+}
